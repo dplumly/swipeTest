@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+* {
+      padding: 0;
+      margin: 0;
+      border: 0;
+    }
+
+body {
+    background: #eee;
+    padding: 15px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#phone {
+    width: 320px;
+    padding: 132px 28px 78px 32px;
+    height: 534px;
+    background: url(../img/phone.png) no-repeat;
+    margin: 0 auto;
+    visibility: hidden;
+}
+
+#gallery {
+    list-style: none;
+    width: 320px;
+    height: 482px;
+    background: #111;
+    cursor: hand;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+
+#gallery li {
+     border-right: 5px solid #111;
+}
+
+#gallery .item {
+    height: 482px;
+}
+
+#gallery li:last-child  {
+    border: 0;
+}
+
+#gallery .item img {
+    display: block;
+    height: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
+}
+
+#dragend {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    background: #345;
+    padding: 18px;
+    color: #fff;
+    border-radius: 3px;
+    width: 150px;
+    font-size: 15px;
+}
+
+#dragend h1 {
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+#dragend a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.map {
+    position: relative;
+}
+
+.mapLocation1 {
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 39px;
+    width: 45px;
+}
+
+.mapLocation2 {
+    position: absolute;
+    z-index: 2;
+    top: 400px;
+    left: 70px;
+    width: 45px;
+}
+
+.mapLocation3 {
+    position: absolute;
+    z-index: 2;
+    top: 140px;
+    left: 234px;
+    width: 45px;
+}
+
+.mapLocation4 {
+    position: absolute;
+    z-index: 2;
+    top: 234px;
+    left: 190px;
+    width: 45px;
+}
+
+.mapLocation5 {
+    position: absolute;
+    z-index: 2;
+    top: 290px;
+    left: 245px;
+    width: 45px;
+}
+
+
+
+
+
+
+
+
